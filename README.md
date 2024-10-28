@@ -25,3 +25,10 @@ Desenvolva um Plugin em WordPress que implemente a funcionalidade de favoritar p
 ## Dúvidas
 
 Em caso de dúvidas, crie uma issue.
+
+## Shortcode
+
+Quando o plugin for ativado, você adiciona o shortcode no arquivo que deseja exibir o ícone de favoritar:
+
+```php
+<?php echo apply_shortcodes('[favorito_button]'); ?>
